@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root "whiteboards#index"
+  get 'top/index'
+  root "top#index"
 
   resources :whiteboards
 end
